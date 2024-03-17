@@ -4,7 +4,7 @@ COPY . .
 RUN npm install
 RUN npm run build
 
-FROM node:16-alpine AS final
+FROM node:20-alpine AS final
 
 RUN apk add --no-cache chromium ca-certificates
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
