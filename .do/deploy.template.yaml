@@ -1,8 +1,8 @@
 spec:
-  name: sample-expressjs
+  name: ol-tileserver
   services:
-  - environment_slug: node-js
+  - dockerfile_path: Dockerfile
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-expressjs.git
-    name: sample-expressjs
+      repo_clone_url: https://github.com/ahocevar/ol-tileserver.git
+    name: ol-tileserver

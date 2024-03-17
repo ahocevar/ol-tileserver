@@ -1,8 +1,8 @@
-name: sample-expressjs
+name: ol-tileserver
 services:
-- environment_slug: node-js
+- dockerfile_path: Dockerfile
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-expressjs
-  name: sample-expressjs
+    repo: ahocevar/ol-tileserver
+  name: ahocevar/ol-tileserver

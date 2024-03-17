@@ -1,19 +1,33 @@
 {
-  "name": "sample-expressjs",
+  "name": "ol-tileserver",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "module": "index.js",
   "scripts": {
-	"start": "node index.js",
+    "build": "vite build",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/digitalocean/sample-expressjs"
+    "url": "github.com/ahocevar/ol-tileserver.git"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "lru-cache": "^10.2.0",
+    "ol": "^9.0.0",
+    "ol-mapbox-style": "^12.2.1",
+    "puppeteer": "^22.5.0",
+    "puppeteer-cluster": "^0.23.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "vite": "^5.1.6"
   }
 }
