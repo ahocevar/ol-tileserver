@@ -83,6 +83,6 @@ const mapReady =
     });
     mapReady();
   } catch (error) {
-    mapError(error);
+    mapError(error.message);
   }
 })();
