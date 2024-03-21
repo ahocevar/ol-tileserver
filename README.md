@@ -12,9 +12,9 @@ If you want do deploy it on a server immediately, you can click the button below
 
 Once you have deployed the server to `SERVER_URL`, you can start using the server. Example:
 
-    SERVER_URL/tiles/4/8/5.png?style=https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/styles/bm_web_col.json
+    SERVER_URL/tiles/4/8/5.png?style=https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer/resources/styles/root.json
 
-This will load a Mapbox/MapLibre style from https://basemap.de/, and display a 512x512 png tile with the tile coordinate z=4, x=8, y=5.
+This will load a Mapbox/MapLibre style from https://arcgis.com/, and display a 512x512 png tile with the tile coordinate z=4, x=8, y=5.
 
 ## Server API
 
