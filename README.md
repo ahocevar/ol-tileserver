@@ -22,7 +22,7 @@ The server provides a single endpoint:
 
     /tiles/:z/:x/:y.:format?style=https://server/providing/a/maplibre-or-mapbox-style.json
 
-Returned tiles will always be 512x512 tiles in a standard Web Mercator tile grid.
+Returned tiles will always be 512x512 pixels in a standard Web Mercator tile grid.
 
 *Parameters*:
 
