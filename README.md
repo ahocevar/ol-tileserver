@@ -26,7 +26,7 @@ Returned tiles will always be 512x512 pixels in a standard Web Mercator tile gri
 
 *Parameters*:
 
-* `z`: zoom level (0-15)
+* `z`: zoom level (0-22)
 * `x`: tile column
 * `y`: tile row
 * `format`: one of `png`, `jpg`, `jpeg`, `webp`
